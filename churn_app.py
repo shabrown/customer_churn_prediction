@@ -8,15 +8,19 @@ st.set_option('deprecation.showfileUploaderEncoding', False)
 
 st.write("""
 # Customer Churn Prediction App
-### -----------------------by Sha Brown-------------------------
-This app predicts whether a customer is going to churn!
-Data obtained from the [Kaggle](https://www.kaggle.com/hassanamin/customer-churn)
+------------------------------by Sha Brown--------------------------------
+
+     
+This app predicts if a customer is going to churn.
+
+       
+Data obtained from [Kaggle](https://www.kaggle.com/hassanamin/customer-churn)
 """)
 
 st.sidebar.header('User Input Features')
 
 st.sidebar.markdown("""
-[Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/penguins_example.csv)
+[Example CSV input file](https://github.com/shabrown/customer_churn_prediction/blob/main/example_customer.csv)
 """)
 
 # Collects user input features into dataframe
